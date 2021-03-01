@@ -4,20 +4,21 @@
 
 # We can iterate Collection items
 # Such as List, Tuple, Set and so on.
+
+# Example 1 : looping list
 blog_websites = ["aryanz.co.in", "balamt.in", "wecancode.live"]
 
-for blog_site in blog_websites:
-    print(blog_site)
+for x in blog_websites:
+    print(x)
 
 
-
-# We can iterate String
+# Example 2 : looping string value
 name = "John"
 for letter in name:
     print(letter)
 
 
-# Using else in For loop
+# Example 3: Using else in For loop
 
 for i in range(1,4):
     print(i)

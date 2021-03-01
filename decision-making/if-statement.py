@@ -7,3 +7,6 @@ y = 10
 
 if x > y:
     print("X is greater")
+    print(f"{x}")
+
+print("Program ended")

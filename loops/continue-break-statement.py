@@ -5,6 +5,7 @@
 
 for count in range(0, 5):
     print(f"Now its {count}")
+    pass
     if count == 2:
         print("count is 2, going to continue the loop")
         continue
